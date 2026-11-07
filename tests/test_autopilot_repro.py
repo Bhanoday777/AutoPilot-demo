@@ -1,0 +1,6 @@
+import pytest
+
+from calc.stats import median
+
+def test_median_even_length() -> None:
+    assert median([1, 2, 3, 4]) == 2.5
